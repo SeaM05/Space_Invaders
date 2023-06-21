@@ -4,7 +4,7 @@ import javax.swing.ImageIcon;
 
 public class Bomb extends Sprite{
 	
-	private final String bomb = "/img/bomb.png";
+	private final String bomb = "img/bomb.png";
 	private boolean destroyed;
 	
 	public Bomb(int x , int y) {

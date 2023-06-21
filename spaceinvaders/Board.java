@@ -37,8 +37,8 @@ public class Board extends JPanel implements Runnable, Commons {
 	
 	private boolean ingame = true;
 	private boolean havewon = true;
-	private final String expl = "/img/explosion.png";
-	private final String alienpix = "/spaceinvaders.img/alien.png";
+	private final String expl = "img/explosion.png";
+	private final String alienpix = "img/alien.png";
 	private String message = "Your planet belongs to us now...";
 
 	private Thread animator;
